@@ -97,7 +97,7 @@
   
   .line {
     width: 82.3rem;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     text-align: center;
     color: rgb(240, 28, 39);
     height: 3rem;
