@@ -101,10 +101,9 @@
     text-align: center;
     color: rgb(240, 28, 39);
     height: 3rem;
-    box-shadow: 10rem;
     padding: 8px;
     font-weight: bolder;
-    margin-left: 1rem;
+    margin-left: 1px;
   }
   
   /* Mobile responsive styles */
