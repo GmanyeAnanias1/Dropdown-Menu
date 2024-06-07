@@ -12,7 +12,10 @@
 
 <body>
     <div class="menu-bar">
-        <ul>
+        <div class="hamburger">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
             <li class="active"> <a href=""> <i class="fa fa-home"></i>Home </i></a></li>
 
             <li><a href=""><i class="fa fa-user"></i>About Us</a>
@@ -39,7 +42,7 @@
                                 </ul>
                             </div>
                         </li>
-                        
+
                         <li class="hover-me"><a href="">General printing Services <i class="fa fa-angle-right"></i>
                                 </i></a>
                             <div class="sub-menu-2">
@@ -60,9 +63,19 @@
             <li><a href=""><i class="fa fa-edit"></i>Training</a></li>
             <li><a href=""><i class="fa fa-phone"></i>Contact</a></li>
         </ul>
-        <hr>
     </div>
+    <!-- <hr>  -->
     <div class="line">Hot lines</div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
